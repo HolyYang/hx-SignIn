@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B7E13101E5C0B4D004120EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E130F1E5C0B4D004120EC /* main.m */; };
+		3B7E13131E5C0B4D004120EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E13121E5C0B4D004120EC /* AppDelegate.m */; };
+		3B7E13161E5C0B4D004120EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E13151E5C0B4D004120EC /* ViewController.m */; };
+		3B7E13191E5C0B4D004120EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7E13171E5C0B4D004120EC /* Main.storyboard */; };
+		3B7E131B1E5C0B4D004120EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7E131A1E5C0B4D004120EC /* Assets.xcassets */; };
+		3B7E131E1E5C0B4D004120EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7E131C1E5C0B4D004120EC /* LaunchScreen.storyboard */; };
+		3B7E13291E5C0B4D004120EC /* hx_SignInTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E13281E5C0B4D004120EC /* hx_SignInTests.m */; };
+		3B7E13341E5C0B4D004120EC /* hx_SignInUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E13331E5C0B4D004120EC /* hx_SignInUITests.m */; };
+		3B7E13431E5C0BAE004120EC /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E13421E5C0BAE004120EC /* QRCodeReaderView.m */; };
+		3B7E13491E5C0BBF004120EC /* lhScanQCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E13451E5C0BBF004120EC /* lhScanQCodeViewController.m */; };
+		3B7E134A1E5C0BBF004120EC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E13471E5C0BBF004120EC /* WebViewController.m */; };
+		3B7E134B1E5C0BBF004120EC /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7E13481E5C0BBF004120EC /* WebViewController.xib */; };
+		3B7E134D1E5C0E4C004120EC /* noticeMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B7E134C1E5C0E4C004120EC /* noticeMusic.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B7E13251E5C0B4D004120EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7E13031E5C0B4D004120EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7E130A1E5C0B4D004120EC;
+			remoteInfo = "hx-SignIn";
+		};
+		3B7E13301E5C0B4D004120EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7E13031E5C0B4D004120EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7E130A1E5C0B4D004120EC;
+			remoteInfo = "hx-SignIn";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B7E130B1E5C0B4D004120EC /* hx-SignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hx-SignIn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7E130F1E5C0B4D004120EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B7E13111E5C0B4D004120EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B7E13121E5C0B4D004120EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B7E13141E5C0B4D004120EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B7E13151E5C0B4D004120EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B7E13181E5C0B4D004120EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B7E131A1E5C0B4D004120EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B7E131D1E5C0B4D004120EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B7E131F1E5C0B4D004120EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7E13241E5C0B4D004120EC /* hx-SignInTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hx-SignInTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7E13281E5C0B4D004120EC /* hx_SignInTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hx_SignInTests.m; sourceTree = "<group>"; };
+		3B7E132A1E5C0B4D004120EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7E132F1E5C0B4D004120EC /* hx-SignInUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hx-SignInUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7E13331E5C0B4D004120EC /* hx_SignInUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hx_SignInUITests.m; sourceTree = "<group>"; };
+		3B7E13351E5C0B4D004120EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7E13411E5C0BAE004120EC /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		3B7E13421E5C0BAE004120EC /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		3B7E13441E5C0BBF004120EC /* lhScanQCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhScanQCodeViewController.h; sourceTree = "<group>"; };
+		3B7E13451E5C0BBF004120EC /* lhScanQCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lhScanQCodeViewController.m; sourceTree = "<group>"; };
+		3B7E13461E5C0BBF004120EC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		3B7E13471E5C0BBF004120EC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		3B7E13481E5C0BBF004120EC /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		3B7E134C1E5C0E4C004120EC /* noticeMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noticeMusic.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7E13081E5C0B4D004120EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7E13211E5C0B4D004120EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7E132C1E5C0B4D004120EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7E13021E5C0B4D004120EC = {
+			isa = PBXGroup;
+			children = (
+				3B7E130D1E5C0B4D004120EC /* hx-SignIn */,
+				3B7E13271E5C0B4D004120EC /* hx-SignInTests */,
+				3B7E13321E5C0B4D004120EC /* hx-SignInUITests */,
+				3B7E130C1E5C0B4D004120EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7E130C1E5C0B4D004120EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B7E130B1E5C0B4D004120EC /* hx-SignIn.app */,
+				3B7E13241E5C0B4D004120EC /* hx-SignInTests.xctest */,
+				3B7E132F1E5C0B4D004120EC /* hx-SignInUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7E130D1E5C0B4D004120EC /* hx-SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				3B7E134C1E5C0E4C004120EC /* noticeMusic.wav */,
+				3B7E13111E5C0B4D004120EC /* AppDelegate.h */,
+				3B7E13121E5C0B4D004120EC /* AppDelegate.m */,
+				3B7E13141E5C0B4D004120EC /* ViewController.h */,
+				3B7E13151E5C0B4D004120EC /* ViewController.m */,
+				3B7E13411E5C0BAE004120EC /* QRCodeReaderView.h */,
+				3B7E13421E5C0BAE004120EC /* QRCodeReaderView.m */,
+				3B7E13441E5C0BBF004120EC /* lhScanQCodeViewController.h */,
+				3B7E13451E5C0BBF004120EC /* lhScanQCodeViewController.m */,
+				3B7E13461E5C0BBF004120EC /* WebViewController.h */,
+				3B7E13471E5C0BBF004120EC /* WebViewController.m */,
+				3B7E13481E5C0BBF004120EC /* WebViewController.xib */,
+				3B7E13171E5C0B4D004120EC /* Main.storyboard */,
+				3B7E131A1E5C0B4D004120EC /* Assets.xcassets */,
+				3B7E131C1E5C0B4D004120EC /* LaunchScreen.storyboard */,
+				3B7E131F1E5C0B4D004120EC /* Info.plist */,
+				3B7E130E1E5C0B4D004120EC /* Supporting Files */,
+			);
+			path = "hx-SignIn";
+			sourceTree = "<group>";
+		};
+		3B7E130E1E5C0B4D004120EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B7E130F1E5C0B4D004120EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B7E13271E5C0B4D004120EC /* hx-SignInTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7E13281E5C0B4D004120EC /* hx_SignInTests.m */,
+				3B7E132A1E5C0B4D004120EC /* Info.plist */,
+			);
+			path = "hx-SignInTests";
+			sourceTree = "<group>";
+		};
+		3B7E13321E5C0B4D004120EC /* hx-SignInUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7E13331E5C0B4D004120EC /* hx_SignInUITests.m */,
+				3B7E13351E5C0B4D004120EC /* Info.plist */,
+			);
+			path = "hx-SignInUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B7E130A1E5C0B4D004120EC /* hx-SignIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7E13381E5C0B4D004120EC /* Build configuration list for PBXNativeTarget "hx-SignIn" */;
+			buildPhases = (
+				3B7E13071E5C0B4D004120EC /* Sources */,
+				3B7E13081E5C0B4D004120EC /* Frameworks */,
+				3B7E13091E5C0B4D004120EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hx-SignIn";
+			productName = "hx-SignIn";
+			productReference = 3B7E130B1E5C0B4D004120EC /* hx-SignIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B7E13231E5C0B4D004120EC /* hx-SignInTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7E133B1E5C0B4D004120EC /* Build configuration list for PBXNativeTarget "hx-SignInTests" */;
+			buildPhases = (
+				3B7E13201E5C0B4D004120EC /* Sources */,
+				3B7E13211E5C0B4D004120EC /* Frameworks */,
+				3B7E13221E5C0B4D004120EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7E13261E5C0B4D004120EC /* PBXTargetDependency */,
+			);
+			name = "hx-SignInTests";
+			productName = "hx-SignInTests";
+			productReference = 3B7E13241E5C0B4D004120EC /* hx-SignInTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B7E132E1E5C0B4D004120EC /* hx-SignInUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7E133E1E5C0B4D004120EC /* Build configuration list for PBXNativeTarget "hx-SignInUITests" */;
+			buildPhases = (
+				3B7E132B1E5C0B4D004120EC /* Sources */,
+				3B7E132C1E5C0B4D004120EC /* Frameworks */,
+				3B7E132D1E5C0B4D004120EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7E13311E5C0B4D004120EC /* PBXTargetDependency */,
+			);
+			name = "hx-SignInUITests";
+			productName = "hx-SignInUITests";
+			productReference = 3B7E132F1E5C0B4D004120EC /* hx-SignInUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7E13031E5C0B4D004120EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yangyang;
+				TargetAttributes = {
+					3B7E130A1E5C0B4D004120EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 75ZMZJPBEJ;
+						ProvisioningStyle = Automatic;
+					};
+					3B7E13231E5C0B4D004120EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7J9UJGR3XP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B7E130A1E5C0B4D004120EC;
+					};
+					3B7E132E1E5C0B4D004120EC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7J9UJGR3XP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B7E130A1E5C0B4D004120EC;
+					};
+				};
+			};
+			buildConfigurationList = 3B7E13061E5C0B4D004120EC /* Build configuration list for PBXProject "hx-SignIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7E13021E5C0B4D004120EC;
+			productRefGroup = 3B7E130C1E5C0B4D004120EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B7E130A1E5C0B4D004120EC /* hx-SignIn */,
+				3B7E13231E5C0B4D004120EC /* hx-SignInTests */,
+				3B7E132E1E5C0B4D004120EC /* hx-SignInUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B7E13091E5C0B4D004120EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7E131E1E5C0B4D004120EC /* LaunchScreen.storyboard in Resources */,
+				3B7E131B1E5C0B4D004120EC /* Assets.xcassets in Resources */,
+				3B7E134D1E5C0E4C004120EC /* noticeMusic.wav in Resources */,
+				3B7E13191E5C0B4D004120EC /* Main.storyboard in Resources */,
+				3B7E134B1E5C0BBF004120EC /* WebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7E13221E5C0B4D004120EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7E132D1E5C0B4D004120EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7E13071E5C0B4D004120EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7E13161E5C0B4D004120EC /* ViewController.m in Sources */,
+				3B7E134A1E5C0BBF004120EC /* WebViewController.m in Sources */,
+				3B7E13431E5C0BAE004120EC /* QRCodeReaderView.m in Sources */,
+				3B7E13131E5C0B4D004120EC /* AppDelegate.m in Sources */,
+				3B7E13101E5C0B4D004120EC /* main.m in Sources */,
+				3B7E13491E5C0BBF004120EC /* lhScanQCodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7E13201E5C0B4D004120EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7E13291E5C0B4D004120EC /* hx_SignInTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7E132B1E5C0B4D004120EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7E13341E5C0B4D004120EC /* hx_SignInUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B7E13261E5C0B4D004120EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7E130A1E5C0B4D004120EC /* hx-SignIn */;
+			targetProxy = 3B7E13251E5C0B4D004120EC /* PBXContainerItemProxy */;
+		};
+		3B7E13311E5C0B4D004120EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7E130A1E5C0B4D004120EC /* hx-SignIn */;
+			targetProxy = 3B7E13301E5C0B4D004120EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B7E13171E5C0B4D004120EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7E13181E5C0B4D004120EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B7E131C1E5C0B4D004120EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7E131D1E5C0B4D004120EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B7E13361E5C0B4D004120EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B7E13371E5C0B4D004120EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B7E13391E5C0B4D004120EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 75ZMZJPBEJ;
+				INFOPLIST_FILE = "hx-SignIn/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongyiju.signin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		3B7E133A1E5C0B4D004120EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 75ZMZJPBEJ;
+				INFOPLIST_FILE = "hx-SignIn/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rongyiju.signin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		3B7E133C1E5C0B4D004120EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				INFOPLIST_FILE = "hx-SignInTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyang.hx-SignInTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hx-SignIn.app/hx-SignIn";
+			};
+			name = Debug;
+		};
+		3B7E133D1E5C0B4D004120EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				INFOPLIST_FILE = "hx-SignInTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyang.hx-SignInTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hx-SignIn.app/hx-SignIn";
+			};
+			name = Release;
+		};
+		3B7E133F1E5C0B4D004120EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				INFOPLIST_FILE = "hx-SignInUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyang.hx-SignInUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hx-SignIn";
+			};
+			name = Debug;
+		};
+		3B7E13401E5C0B4D004120EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7J9UJGR3XP;
+				INFOPLIST_FILE = "hx-SignInUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangyang.hx-SignInUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hx-SignIn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7E13061E5C0B4D004120EC /* Build configuration list for PBXProject "hx-SignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7E13361E5C0B4D004120EC /* Debug */,
+				3B7E13371E5C0B4D004120EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7E13381E5C0B4D004120EC /* Build configuration list for PBXNativeTarget "hx-SignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7E13391E5C0B4D004120EC /* Debug */,
+				3B7E133A1E5C0B4D004120EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7E133B1E5C0B4D004120EC /* Build configuration list for PBXNativeTarget "hx-SignInTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7E133C1E5C0B4D004120EC /* Debug */,
+				3B7E133D1E5C0B4D004120EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7E133E1E5C0B4D004120EC /* Build configuration list for PBXNativeTarget "hx-SignInUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7E133F1E5C0B4D004120EC /* Debug */,
+				3B7E13401E5C0B4D004120EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B7E13031E5C0B4D004120EC /* Project object */;
+}
